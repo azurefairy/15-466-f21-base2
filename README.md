@@ -1,22 +1,18 @@
-# (TODO: your game's title)
+# nom nom nom
 
-Author: (TODO: your name)
+Author: Brad Zhang
 
-Design: (TODO: In two sentences or fewer, describe what is new and interesting about your game.)
+Design: A 3D object collector game, with jumping and camera controls. Also wrote own "physics engine" to simulate jumping.
 
 Screen Shot:
 
 ![Screen Shot](screenshot.png)
 
-How Your Asset Pipeline Works:
-
-(TODO: describe the steps in your asset pipeline, from source files to tiles/backgrounds/whatever you upload to the PPU466.)
-
 How To Play:
 
-(TODO: describe the controls and (if needed) goals/strategy.)
+Control the player with WASD, mouse horizontally for horizontal camera control, spacebar for jump. Run around, explore, and collect the donuts :)
 
-Sources: (TODO: list a source URL for any assets you did not create yourself. Make sure you have a license for the asset.)
+Sources: Built on top of `city.blend` from the 15-466 game2 base code repository (from which this one is forked).
 
 This game was built with [NEST](NEST.md).
 
