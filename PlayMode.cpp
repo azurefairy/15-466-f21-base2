@@ -201,7 +201,7 @@ void PlayMode::update(float elapsed) {
 	if (on_ground) elevated.jumped_from = elevated.current;
 
 	// CONSUME THE DONUTS
-	if(consume(donut1, frosting1, player->position.x - 12.957f, player->position.y - 1.f)) donut1eat = 1;
+	if(consume(donut1, frosting1, player->position.x - 12.f, player->position.y - 14.f)) donut1eat = 1;
 	if(consume(donut2, frosting2, player->position.x - 17.f, player->position.y - 7.4477f)) donut2eat = 1;
 	if(consume(donut3, frosting3, player->position.x - 8.f, player->position.y - 13.f)) donut3eat = 1;
 	if(consume(donut4, frosting4, player->position.x - 2.f, player->position.y - -0.5f)) donut4eat = 1;
